@@ -1,0 +1,153 @@
+/**
+ * Color scheme
+ *
+@lightBlue: #85C4ED;
+@blue: #3499DB;
+@darkBlue: #0665A2;
+@lightYellow; #FFE088;
+@yellow: #FFC930;
+@orange: #FFA330;
+@lightOrange: #FFCA88;
+@purple: #454DE1;
+@lightPurple: #9095F0;
+*/
+
+#customize-widgets {
+}
+#customize-widgets label {
+	display: inline-block;
+	width: 128px;
+	min-height: 40px;
+	border-radius: 25px;
+	border: 2px solid #999;
+	text-align: center;
+	margin: 10px;
+	padding: 150px 11px 11px;
+	background: #FFF url('images/puzzle.png') 11px 11px no-repeat;
+	position: relative;
+}
+
+#customize-widgets label:hover {
+	background-color: #85C4ED;
+	border: 2px solid #0654A2;
+}
+#customize-widgets label.active {
+	opacity: 0.4;
+	border: 2px solid #fff;
+}
+#customize-widgets label.active:hover {
+	opacity: 0.8;
+	border: 2px solid #0654A2;
+}
+#customize-widgets label input {
+	display: none;
+}
+
+/** Blue long shadow theme */
+/** WP Widgets */
+#customize-widgets label.disable_WP_Widget_Pages { background-image: url('images/blue/fs-file.png'); }
+#customize-widgets label.disable_WP_Widget_Archives { background-image: url('images/blue/fs-archive.png'); }
+#customize-widgets label.disable_WP_Widget_Calendar { background-image: url('images/blue/fs-calendar.png'); }
+#customize-widgets label.disable_WP_Widget_RSS { background-image: url('images/blue/fs-rss.png'); }
+#customize-widgets label.disable_WP_Widget_Search { background-image: url('images/blue/fs-search.png'); }
+#customize-widgets label.disable_WP_Widget_Black_Studio_TinyMCE { background-image: url('images/blue/fs-pencil.png'); }
+#customize-widgets label.disable_WP_Nav_Menu_Widget { background-image: url('images/blue/fs-pagelines.png'); }
+#customize-widgets label.disable_WP_Widget_Meta { background-image: url('images/blue/fs-coffee.png'); }
+#customize-widgets label.disable_WP_Widget_Text { background-image: url('images/blue/fs-font.png'); }
+#customize-widgets label.disable_WP_Widget_Recent_Comments { background-image: url('images/blue/fs-comments.png'); }
+#customize-widgets label.disable_WP_Widget_Recent_Posts { background-image: url('images/blue/fs-anchor.png'); }
+#customize-widgets label.disable_WP_Widget_Tag_Cloud { background-image: url('images/blue/fs-tags.png'); }
+#customize-widgets label.disable_WP_Widget_Categories { background-image: url('images/blue/fs-folder.png'); }
+
+/** Aqua widgets */
+#customize-widgets label.disable_Aqua_Video_Widget { background-image: url('images/blue/fs-video.png'); }
+#customize-widgets label.disable_Aqua_Editor_Widget { background-image: url('images/blue/fs-paint.png'); }
+#customize-widgets label.disable_Aqua_Slideshow_Widget { background-image: url('images/blue/fs-play.png'); }
+#customize-widgets label.disable_Recent_News_Widget { background-image: url('images/blue/fs-newspaper.png'); }
+#customize-widgets label.disable_Aqua_Block_Widget { background-image: url('images/blue/fs-cube.png'); }
+
+/** Siteorigin widgets */
+#customize-widgets label.disable_SiteOrigin_Panels_Widgets_PostContent { background-image: url('images/blue/fs-align.png'); }
+#customize-widgets label.disable_SiteOrigin_Panels_Widgets_PostLoop { background-image: url('images/blue/fs-wordpress.png'); }
+#customize-widgets label.disable_SiteOrigin_Widget_PriceTable_Widget { background-image: url('images/blue/fs-columns.png'); }
+#customize-widgets label.disable_SiteOrigin_Widget_Image_Widget { background-image: url('images/blue/fs-camera.png'); }
+#customize-widgets label.disable_SiteOrigin_Widget_Button_Widget { background-image: url('images/blue/fs-bullseye.png'); }
+#customize-widgets label.disable_SiteOrigin_Widget_SocialMediaButtons_Widget { background-image: url('images/blue/fs-facebook_1.png'); }
+#customize-widgets label.disable_SiteOrigin_Widget_Slider_Widget { background-image: url('images/blue/fs-sliders.png'); }
+#customize-widgets label.disable_SiteOrigin_Panels_Widgets_Layout { background-image: url('images/blue/fs-cubes.png'); }
+#customize-widgets label.disable_SiteOrigin_Widget_PostCarousel_Widget { background-image: url('images/blue/fs-rotate_1.png'); }
+#customize-widgets label.disable_SiteOrigin_Widget_Cta_Widget { background-image: url('images/blue/fs-phone.png'); }
+#customize-widgets label.disable_SiteOrigin_Widget_GoogleMap_Widget { background-image: url('images/blue/fs-globe.png'); }
+#customize-widgets label.disable_SiteOrigin_Widget_Features_Widget { background-image: url('images/blue/fs-gears.png'); }
+
+/** Jetpack widgets */
+#customize-widgets label.disable_Jetpack_Gravatar_Profile_Widget { background-image: url('images/blue/fs-user_1.png'); }
+#customize-widgets label.disable_Jetpack_Image_Widget { background-image: url('images/blue/fs-camera.png'); }
+#customize-widgets label.disable_Jetpack_RSS_Links_Widget { background-image: url('images/blue/fs-rss.png'); }
+#customize-widgets label.disable_Jetpack_Top_Posts_Widget { background-image: url('images/blue/fs-file_1.png'); }
+#customize-widgets label.disable_Jetpack_Twitter_Timeline_Widget { background-image: url('images/blue/fs-twitter.png'); }
+#customize-widgets label.disable_Jetpack_Display_Posts_Widget { background-image: url('images/blue/fs-file.png'); }
+#customize-widgets label.disable_Jetpack_Readmill_Widget { background-image: url('images/blue/fs-book.png'); }
+
+/** Nextgen widgets */
+#customize-widgets label.disable_C_Widget_MediaRSS { background-image: url('images/blue/fs-rss_1.png'); }
+#customize-widgets label.disable_C_Widget_Slideshow { background-image: url('images/blue/fs-film.png'); }
+#customize-widgets label.disable_C_Widget_Gallery { background-image: url('images/blue/fs-picture.png'); }
+#customize-widgets label.disable_BWGControllerWidgetSlideshow { background-image: url('images/blue/fs-film.png'); }
+#customize-widgets label.disable_BWGControllerWidget { background-image: url('images/blue/fs-picture.png'); }
+
+/** WooCommerce */
+#customize-widgets label.disable_WC_Widget_Cart { background-image: url('images/blue/fs-shopping.png'); }
+#customize-widgets label.disable_WC_Widget_Layered_Nav_Filters { background-image: url('images/blue/fs-filter.png'); }
+#customize-widgets label.disable_WC_Widget_Layered_Nav { background-image: url('images/blue/fs-sitemap.png'); }
+#customize-widgets label.disable_WC_Widget_Price_Filter { background-image: url('images/blue/fs-usd.png'); }
+#customize-widgets label.disable_WC_Widget_Product_Categories { background-image: url('images/blue/fs-sitemap.png'); }
+#customize-widgets label.disable_WC_Widget_Product_Search { background-image: url('images/blue/fs-search.png'); }
+#customize-widgets label.disable_WC_Widget_Product_Tag_Cloud { background-image: url('images/blue/fs-tags.png'); }
+#customize-widgets label.disable_WC_Widget_Products { background-image: url('images/blue/fs-barcode.png'); }
+#customize-widgets label.disable_WC_Widget_Recent_Reviews { background-image: url('images/blue/fs-comments_1.png'); }
+#customize-widgets label.disable_WC_Widget_Recently_Viewed { background-image: url('images/blue/fs-eye.png'); }
+#customize-widgets label.disable_WC_Widget_Top_Rated_Products { background-image: url('images/blue/fs-star.png'); }
+
+/** BBpress */
+#customize-widgets label.disable_BBP_Login_Widget { background-image: url('images/blue/fs-shield.png'); }
+#customize-widgets label.disable_BBP_Views_Widget { background-image: url('images/blue/fs-sitemap.png'); }
+#customize-widgets label.disable_BBP_Search_Widget { background-image: url('images/blue/fs-search.png'); }
+#customize-widgets label.disable_BBP_Forums_Widget { background-image: url('images/blue/fs-list.png'); }
+#customize-widgets label.disable_BBP_Topics_Widget { background-image: url('images/blue/fs-comment_1.png'); }
+#customize-widgets label.disable_BBP_Replies_Widget { background-image: url('images/blue/fs-comments.png'); }
+#customize-widgets label.disable_BBP_Stats_Widget { background-image: url('images/blue/fs-pie.png'); }
+
+/** BuddyPress */
+#customize-widgets label.disable_BP_Core_Login_Widget { background-image: url('images/blue/fs-shield.png'); }
+#customize-widgets label.disable_BP_Core_Members_Widget { background-image: url('images/blue/fs-users.png'); }
+#customize-widgets label.disable_BP_Core_Whos_Online_Widget { background-image: url('images/blue/fs-eye.png'); }
+#customize-widgets label.disable_BP_Core_Recently_Active_Widget { background-image: url('images/blue/fs-eye_1.png'); }
+#customize-widgets label.disable_MetaSlider_Widget { background-image: url('images/blue/fs-sliders.png'); }
+
+/** Misc popular widgets */
+#customize-widgets label.disable_MC4WP_Lite_Widget { background-image: url('images/blue/fs-send.png'); }
+#customize-widgets label.disable_GFWidget { background-image: url('images/blue/fs-th.png'); }
+#customize-widgets label.disable_ECGF_Widget { background-image: url('images/blue/fs-calendar_1.png'); }
+#customize-widgets label.disable_wpInsertAdWidget { background-image: url('images/blue/fs-usd.png'); }
+#customize-widgets label.disable_creativeimageslider_widget { background-image: url('images/blue/fs-sliders.png'); }
+#customize-widgets label.disable_LeagueManagerWidget { background-image: url('images/blue/fs-soccer.png'); }
+#customize-widgets label.disable_wpf_widget { background-image: url('images/blue/fs-cloud_2.png'); }
+#customize-widgets label.disable_RatingWidgetPlugin_TopRatedWidget { background-image: url('images/blue/fs-star.png'); }
+#customize-widgets label.disable_Jetpack_Subscriptions_Widget { background-image: url('images/blue/fs-rss_1.png'); }
+#customize-widgets label.disable_WPCOM_Widget_Facebook_LikeBox { background-image: url('images/blue/fs-thumbs.png'); }
+#customize-widgets label.disable_Huge_it_Widget { background-image: url('images/blue/fs-sliders.png'); }
+#customize-widgets label.disable_EmailitSidebarWidget { background-image: url('images/blue/fs-envelope.png'); }
+#customize-widgets label.disable_Huge_it_gallery_Widget { background-image: url('images/blue/fs-film.png'); }
+#customize-widgets label.disable_hst_SUPPORT { background-image: url('images/blue/fs-user.png'); }
+#customize-widgets label.disable_hst_STATS { background-image: url('images/blue/fs-bar.png'); }
+#customize-widgets label.disable_CountDownTimer { background-image: url('images/blue/fs-clock.png'); }
+#customize-widgets label.disable_A2A_SHARE_SAVE_Widget { background-image: url('images/blue/fs-digg.png'); }
+#customize-widgets label.disable_Contact_Bank_Widget { background-image: url('images/blue/fs-users.png'); }
+#customize-widgets label.disable_ngfbwidgetsharing { background-image: url('images/blue/fs-facebook_1.png'); }
+#customize-widgets label.disable_AL2FB_Widget { background-image: url('images/blue/fs-facebook.png'); }
+#customize-widgets label.disable_GoogleMapsWidget { background-image: url('images/blue/fs-globe.png'); }
+#customize-widgets label.disable_GADSH_Frontend_Widget { background-image: url('images/blue/fs-area.png'); }
+#customize-widgets label.disable_GADSH_Frontend_Widget { background-image: url('images/blue/fs-line.png'); }
+#customize-widgets label.disable_bcn_widget { background-image: url('images/blue/fs-forward.png'); }
+#customize-widgets label.disable_Akismet_Widget { background-image: url('images/blue/fs-flag.png'); }
