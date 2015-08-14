@@ -1,8 +1,7 @@
 === Plugin Name ===
 Contributors: Avranu
 Donate link: http://jess-mann.com/index.php?action=contact
-Tags: widgets, admin, hide, customize, clutter, simplify, reduce, fewer
-widgets, whitebox, extra widgets, hide widgets 
+Tags: widgets, admin, hide, customize, clutter, simplify, reduce, fewer widgets, whitebox, extra widgets, hide widgets 
 Requires at least: 3.0.1
 Tested up to: 4.2.4
 License: GPLv2 or later
